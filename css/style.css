@@ -86,6 +86,7 @@ body {
   letter-spacing: 0.06em;
   color: #ffffff;
   background: var(--accent-color);
+  border: 0;
 }
 
 /* --------------UNIQUE---------------- */
@@ -144,4 +145,39 @@ body {
 
 .adressat {
   color: var(--primery-title-color);
+}
+
+/* --------------PORTFOLIO---------------- */
+.portfolio-title {
+  display: none;
+}
+.portfolio-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background: #f5f4fa;
+  border: 0;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: #ffffff;
+  background: var(--accent-color);
+}
+
+.portfolio-litl-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-title-color);
+}
+.portfolio-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--primery-text-color);
 }
